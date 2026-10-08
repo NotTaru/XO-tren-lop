@@ -1,0 +1,6 @@
+{
+  "name": "Festival.EditModeTests",
+  "references": ["Festival.Runtime", "Festival.Editor"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

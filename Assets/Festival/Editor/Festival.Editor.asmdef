@@ -1,0 +1,6 @@
+{
+  "name": "Festival.Editor",
+  "references": ["Festival.Runtime"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}

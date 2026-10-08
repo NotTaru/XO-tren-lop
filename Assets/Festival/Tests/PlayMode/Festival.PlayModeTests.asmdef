@@ -1,0 +1,5 @@
+{
+  "name": "Festival.PlayModeTests",
+  "references": ["Festival.Runtime"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

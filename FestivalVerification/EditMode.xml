@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="25" result="Passed" total="25" passed="25" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.1071639">
+  <test-suite type="TestSuite" id="1034" name="Le Hoi Phao Hoa" fullname="Le Hoi Phao Hoa" runstate="Runnable" testcasecount="25" result="Passed" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.107164" total="25" passed="25" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1063" name="Festival.EditModeTests.dll" fullname="E:/unity projects/My project (2)/.festival-verification/Library/ScriptAssemblies/Festival.EditModeTests.dll" runstate="Runnable" testcasecount="25" result="Passed" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.090527" total="25" passed="25" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="11472" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+      </properties>
+      <test-suite type="TestFixture" id="1035" name="RhythmTests" fullname="RhythmTests" classname="RhythmTests" runstate="Runnable" testcasecount="25" result="Passed" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.089225" total="25" passed="25" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1047" name="AccuracyUsesTotalNotesAndBadInputsDoNotChangeDenominator" fullname="RhythmTests.AccuracyUsesTotalNotesAndBadInputsDoNotChangeDenominator" methodname="AccuracyUsesTotalNotesAndBadInputsDoNotChangeDenominator" classname="RhythmTests" runstate="Runnable" seed="282709477" result="Passed" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.015701" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1056" name="ChordIsRejected" fullname="RhythmTests.ChordIsRejected" methodname="ChordIsRejected" classname="RhythmTests" runstate="Runnable" seed="1877940587" result="Passed" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.004006" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1055" name="DuplicateIdIsRejected" fullname="RhythmTests.DuplicateIdIsRejected" methodname="DuplicateIdIsRejected" classname="RhythmTests" runstate="Runnable" seed="65997449" result="Passed" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.000467" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1061" name="HoldingDuringCountdownRequiresRelease" fullname="RhythmTests.HoldingDuringCountdownRequiresRelease" methodname="HoldingDuringCountdownRequiresRelease" classname="RhythmTests" runstate="Runnable" seed="2129407465" result="Passed" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.000917" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1062" name="ImportedVfxHaveResolvedShaderAndTextureReferences" fullname="RhythmTests.ImportedVfxHaveResolvedShaderAndTextureReferences" methodname="ImportedVfxHaveResolvedShaderAndTextureReferences" classname="RhythmTests" runstate="Runnable" seed="2050698451" result="Passed" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.034079" asserts="0">
+          <properties />
+        </test-case>
+        <test-suite type="ParameterizedMethod" id="1042" name="InclusiveTimingBoundaries" fullname="RhythmTests.InclusiveTimingBoundaries" classname="RhythmTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.008320" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1036" name="InclusiveTimingBoundaries(0.08d,Perfect)" fullname="RhythmTests.InclusiveTimingBoundaries(0.08d,Perfect)" methodname="InclusiveTimingBoundaries" classname="RhythmTests" runstate="Runnable" seed="2098718950" result="Passed" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.004023" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1037" name="InclusiveTimingBoundaries(-0.08d,Perfect)" fullname="RhythmTests.InclusiveTimingBoundaries(-0.08d,Perfect)" methodname="InclusiveTimingBoundaries" classname="RhythmTests" runstate="Runnable" seed="173985746" result="Passed" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.000446" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1038" name="InclusiveTimingBoundaries(0.08001d,Good)" fullname="RhythmTests.InclusiveTimingBoundaries(0.08001d,Good)" methodname="InclusiveTimingBoundaries" classname="RhythmTests" runstate="Runnable" seed="1838907571" result="Passed" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.000247" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1039" name="InclusiveTimingBoundaries(0.16d,Good)" fullname="RhythmTests.InclusiveTimingBoundaries(0.16d,Good)" methodname="InclusiveTimingBoundaries" classname="RhythmTests" runstate="Runnable" seed="589912699" result="Passed" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.000252" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1040" name="InclusiveTimingBoundaries(-0.16d,Good)" fullname="RhythmTests.InclusiveTimingBoundaries(-0.16d,Good)" methodname="InclusiveTimingBoundaries" classname="RhythmTests" runstate="Runnable" seed="637292000" result="Passed" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.000253" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1041" name="InclusiveTimingBoundaries(0.16001d,BadInput)" fullname="RhythmTests.InclusiveTimingBoundaries(0.16001d,BadInput)" methodname="InclusiveTimingBoundaries" classname="RhythmTests" runstate="Runnable" seed="1853508185" result="Passed" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.000234" asserts="0">
+            <properties />
+          </test-case>
+        </test-suite>
+        <test-case id="1044" name="InputBeforeTimeoutOnlyResolvesOnce" fullname="RhythmTests.InputBeforeTimeoutOnlyResolvesOnce" methodname="InputBeforeTimeoutOnlyResolvesOnce" classname="RhythmTests" runstate="Runnable" seed="623153313" result="Passed" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.000980" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1060" name="InsufficientFinalWindowIsRejected" fullname="RhythmTests.InsufficientFinalWindowIsRejected" methodname="InsufficientFinalWindowIsRejected" classname="RhythmTests" runstate="Runnable" seed="1143557141" result="Passed" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.000343" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1054" name="InvalidLaneIsRejected" fullname="RhythmTests.InvalidLaneIsRejected" methodname="InvalidLaneIsRejected" classname="RhythmTests" runstate="Runnable" seed="2121119063" result="Passed" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.000306" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1046" name="MilestonesAndMultipliersAreAppliedAfterIncrement" fullname="RhythmTests.MilestonesAndMultipliersAreAppliedAfterIncrement" methodname="MilestonesAndMultipliersAreAppliedAfterIncrement" classname="RhythmTests" runstate="Runnable" seed="2045294609" result="Passed" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.001659" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1058" name="NonFiniteTimeIsRejected" fullname="RhythmTests.NonFiniteTimeIsRejected" methodname="NonFiniteTimeIsRejected" classname="RhythmTests" runstate="Runnable" seed="1698591072" result="Passed" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.000313" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1059" name="OutOfClipIsRejected" fullname="RhythmTests.OutOfClipIsRejected" methodname="OutOfClipIsRejected" classname="RhythmTests" runstate="Runnable" seed="501746671" result="Passed" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.000311" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1057" name="OverlappingLaneIsRejected" fullname="RhythmTests.OverlappingLaneIsRejected" methodname="OverlappingLaneIsRejected" classname="RhythmTests" runstate="Runnable" seed="819531706" result="Passed" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.000361" asserts="0">
+          <properties />
+        </test-case>
+        <test-suite type="ParameterizedMethod" id="1052" name="RankThresholds" fullname="RhythmTests.RankThresholds" classname="RhythmTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.002401" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1048" name="RankThresholds(95,&quot;S&quot;)" fullname="RhythmTests.RankThresholds(95,&quot;S&quot;)" methodname="RankThresholds" classname="RhythmTests" runstate="Runnable" seed="1004581499" result="Passed" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.000684" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1049" name="RankThresholds(85,&quot;A&quot;)" fullname="RhythmTests.RankThresholds(85,&quot;A&quot;)" methodname="RankThresholds" classname="RhythmTests" runstate="Runnable" seed="1252135868" result="Passed" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.000289" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1050" name="RankThresholds(70,&quot;B&quot;)" fullname="RhythmTests.RankThresholds(70,&quot;B&quot;)" methodname="RankThresholds" classname="RhythmTests" runstate="Runnable" seed="1749680024" result="Passed" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.000234" asserts="0">
+            <properties />
+          </test-case>
+          <test-case id="1051" name="RankThresholds(69,&quot;C&quot;)" fullname="RhythmTests.RankThresholds(69,&quot;C&quot;)" methodname="RankThresholds" classname="RhythmTests" runstate="Runnable" seed="1872882191" result="Passed" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.000270" asserts="0">
+            <properties />
+          </test-case>
+        </test-suite>
+        <test-case id="1045" name="TimeoutAtBoundaryRemainsPending" fullname="RhythmTests.TimeoutAtBoundaryRemainsPending" methodname="TimeoutAtBoundaryRemainsPending" classname="RhythmTests" runstate="Runnable" seed="11867318" result="Passed" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.000613" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1053" name="ValidChartIsAccepted" fullname="RhythmTests.ValidChartIsAccepted" methodname="ValidChartIsAccepted" classname="RhythmTests" runstate="Runnable" seed="1052483287" result="Passed" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.000377" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1043" name="WrongLaneDoesNotConsumeOtherNote" fullname="RhythmTests.WrongLaneDoesNotConsumeOtherNote" methodname="WrongLaneDoesNotConsumeOtherNote" classname="RhythmTests" runstate="Runnable" seed="239220433" result="Passed" start-time="2026-10-08 12:40:19Z" end-time="2026-10-08 12:40:19Z" duration="0.000352" asserts="0">
+          <properties />
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

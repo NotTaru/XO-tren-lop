@@ -1,0 +1,5 @@
+{
+  "name": "Festival.Runtime",
+  "references": ["Unity.ugui"],
+  "autoReferenced": true
+}

@@ -1,0 +1,1 @@
+Notes=136 Perfect=136 Good=0 Miss=0 Bad=0 Score=46200 Accuracy=100 MaxCombo=136 Rank=S

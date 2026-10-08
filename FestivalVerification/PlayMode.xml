@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="3" result="Passed" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-08 12:40:58Z" end-time="2026-10-08 12:41:00Z" duration="1.9770507">
+  <test-suite type="TestSuite" id="1000" name="Le Hoi Phao Hoa" fullname="Le Hoi Phao Hoa" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-08 12:40:58Z" end-time="2026-10-08 12:41:00Z" duration="1.977051" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1005" name="Festival.PlayModeTests.dll" fullname="E:/unity projects/My project (2)/.festival-verification/Library/ScriptAssemblies/Festival.PlayModeTests.dll" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-08 12:40:58Z" end-time="2026-10-08 12:41:00Z" duration="1.969439" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="22120" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+      </properties>
+      <test-suite type="TestFixture" id="1001" name="SessionTests" fullname="SessionTests" classname="SessionTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-08 12:40:58Z" end-time="2026-10-08 12:41:00Z" duration="1.967898" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1004" name="ImportedFireworksRemainReusableAcrossSessions" fullname="SessionTests.ImportedFireworksRemainReusableAcrossSessions" methodname="ImportedFireworksRemainReusableAcrossSessions" classname="SessionTests" runstate="Runnable" seed="489233769" result="Passed" start-time="2026-10-08 12:40:58Z" end-time="2026-10-08 12:40:59Z" duration="1.008281" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+        </test-case>
+        <test-case id="1002" name="MenuPauseResumeAndRestartAreClean" fullname="SessionTests.MenuPauseResumeAndRestartAreClean" methodname="MenuPauseResumeAndRestartAreClean" classname="SessionTests" runstate="Runnable" seed="739993952" result="Passed" start-time="2026-10-08 12:40:59Z" end-time="2026-10-08 12:41:00Z" duration="0.605472" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+        </test-case>
+        <test-case id="1003" name="NoInputCompletesWithAllMissesAndZeroAccuracy" fullname="SessionTests.NoInputCompletesWithAllMissesAndZeroAccuracy" methodname="NoInputCompletesWithAllMissesAndZeroAccuracy" classname="SessionTests" runstate="Runnable" seed="137983654" result="Passed" start-time="2026-10-08 12:41:00Z" end-time="2026-10-08 12:41:00Z" duration="0.338158" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

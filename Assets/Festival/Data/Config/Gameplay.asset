@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c43fc42f7b1a4a4d9b6751782ad5e38, type: 3}
+  m_Name: Gameplay
+  m_EditorClassIdentifier: 
+  perfectWindow: 0.08
+  goodWindow: 0.16
+  noteTravelSeconds: 2
+  perfectScore: 100
+  goodScore: 60
+  countdownSeconds: 3
+  fireworkPrefabs:
+  - {fileID: 4262892856314808647, guid: b852e2de6f52f6a4080d29a1eebcad6f, type: 3}
+  - {fileID: 1897302465527564382, guid: 5fce966f5670d1e498db7dbba25b3710, type: 3}
+  - {fileID: 5783698101181504870, guid: 332c2127b7e342b4b9037b792bfd95e1, type: 3}
+  - {fileID: 3606455407587278760, guid: 43cd295ff6cb4964a9506325a09669aa, type: 3}
+  purpleFirework: {fileID: 1679010318398767729, guid: 0a117e04d5c865f479a0f449084f9510, type: 3}
+  starBurst: {fileID: 2615816344481374726, guid: 8d4de99711a54704984a8f1139a9ff9c, type: 3}
+  sparkle: {fileID: 7290436357887499172, guid: e64ae582fbfe3d144aa2e67f71b46cda, type: 3}
+  confetti: {fileID: 2859845827228452921, guid: 540d3ff155795a74e96ed00a9ca4c0cd, type: 3}
+  maxWorldEffects: 12
+  maxHitEffects: 4
+  maxAudioVoices: 8
+  hitClip: {fileID: 8300000, guid: 74ead5063e165c540b225b575c25ad3b, type: 3}
+  rewardClip: {fileID: 8300000, guid: 00e078f94b8247943994fa3826bb1fa6, type: 3}
+  winClip: {fileID: 8300000, guid: ad3870bfb9676c249b9fb1429c7dfb3f, type: 3}
+  failClip: {fileID: 8300000, guid: 63cab5a655876de4dbe29cb67bfd2e3c, type: 3}
+  uiClip: {fileID: 8300000, guid: b6f29b324aa714a48a153e61442587c6, type: 3}
+  combo5:
+    enabled: 1
+    randomVariant: 0
+    effects:
+    - prefab: {fileID: 9185684719195118454, guid: e8314d1c4c7373c4f879c4b437ea7ce1, type: 3}
+      scale: 0.6
+      viewportPosition: {x: 0.5, y: 0.76}
+      rotation: {x: 0, y: 0, z: 0}
+      duration: 2.5
+  combo10:
+    enabled: 1
+    randomVariant: 0
+    effects:
+    - prefab: {fileID: 2615816344481374726, guid: 8d4de99711a54704984a8f1139a9ff9c, type: 3}
+      scale: 0.55
+      viewportPosition: {x: 0.5, y: 0.76}
+      rotation: {x: 0, y: 0, z: 0}
+      duration: 1.5
+    - prefab: {fileID: 7290436357887499172, guid: e64ae582fbfe3d144aa2e67f71b46cda, type: 3}
+      scale: 0.6
+      viewportPosition: {x: 0.5, y: 0.76}
+      rotation: {x: 0, y: 0, z: 0}
+      duration: 2
+  combo15:
+    enabled: 1
+    randomVariant: 1
+    effects:
+    - prefab: {fileID: 2859845827228452921, guid: 540d3ff155795a74e96ed00a9ca4c0cd, type: 3}
+      scale: 0.85
+      viewportPosition: {x: 0.5, y: 0.72}
+      rotation: {x: 0, y: 0, z: 0}
+      duration: 3
+    - prefab: {fileID: 2322446532990283126, guid: f6e9f2ded1dfe934d947a2f5a666fa0c, type: 3}
+      scale: 0.85
+      viewportPosition: {x: 0.5, y: 0.72}
+      rotation: {x: 0, y: 0, z: 0}
+      duration: 3
+    - prefab: {fileID: 8957652929177224431, guid: 760c399e20273cc499a3993114522739, type: 3}
+      scale: 0.85
+      viewportPosition: {x: 0.5, y: 0.72}
+      rotation: {x: 0, y: 0, z: 0}
+      duration: 3
+    - prefab: {fileID: 2083352057196475404, guid: 5361252afac594344b656f2ff18edd14, type: 3}
+      scale: 0.85
+      viewportPosition: {x: 0.5, y: 0.72}
+      rotation: {x: 0, y: 0, z: 0}
+      duration: 3
+    - prefab: {fileID: 1862783838247341224, guid: df6c916348a513d419454fa6db222a8b, type: 3}
+      scale: 0.85
+      viewportPosition: {x: 0.5, y: 0.72}
+      rotation: {x: 0, y: 0, z: 0}
+      duration: 3
+    - prefab: {fileID: 712341875434222728, guid: 91d09dbc05bcf304c84802062d5c0eb0, type: 3}
+      scale: 0.85
+      viewportPosition: {x: 0.5, y: 0.72}
+      rotation: {x: 0, y: 0, z: 0}
+      duration: 3
+  comboRewardsConfigured: 1

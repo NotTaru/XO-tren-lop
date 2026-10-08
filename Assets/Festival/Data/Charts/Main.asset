@@ -1,0 +1,425 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce31144ad03704d4e85478757b6cb325, type: 3}
+  m_Name: Main
+  m_EditorClassIdentifier: 
+  chartId: main-demo-v1
+  difficulty: "Ti\xEAu chu\u1EA9n"
+  notes:
+  - id: 0
+    lane: 0
+    hitTimeSeconds: 2
+  - id: 1
+    lane: 1
+    hitTimeSeconds: 3
+  - id: 2
+    lane: 2
+    hitTimeSeconds: 4
+  - id: 3
+    lane: 3
+    hitTimeSeconds: 5
+  - id: 4
+    lane: 0
+    hitTimeSeconds: 6
+  - id: 5
+    lane: 1
+    hitTimeSeconds: 7
+  - id: 6
+    lane: 2
+    hitTimeSeconds: 8
+  - id: 7
+    lane: 3
+    hitTimeSeconds: 9
+  - id: 8
+    lane: 0
+    hitTimeSeconds: 10
+  - id: 9
+    lane: 2
+    hitTimeSeconds: 11
+  - id: 10
+    lane: 1
+    hitTimeSeconds: 12
+  - id: 11
+    lane: 3
+    hitTimeSeconds: 13
+  - id: 12
+    lane: 3
+    hitTimeSeconds: 14
+  - id: 13
+    lane: 2
+    hitTimeSeconds: 15
+  - id: 14
+    lane: 1
+    hitTimeSeconds: 16
+  - id: 15
+    lane: 0
+    hitTimeSeconds: 17
+  - id: 16
+    lane: 0
+    hitTimeSeconds: 18
+  - id: 17
+    lane: 1
+    hitTimeSeconds: 18.5
+  - id: 18
+    lane: 2
+    hitTimeSeconds: 19
+  - id: 19
+    lane: 3
+    hitTimeSeconds: 19.5
+  - id: 20
+    lane: 2
+    hitTimeSeconds: 20
+  - id: 21
+    lane: 1
+    hitTimeSeconds: 20.5
+  - id: 22
+    lane: 0
+    hitTimeSeconds: 21
+  - id: 23
+    lane: 3
+    hitTimeSeconds: 21.5
+  - id: 24
+    lane: 0
+    hitTimeSeconds: 22
+  - id: 25
+    lane: 2
+    hitTimeSeconds: 22.5
+  - id: 26
+    lane: 1
+    hitTimeSeconds: 23
+  - id: 27
+    lane: 3
+    hitTimeSeconds: 23.5
+  - id: 28
+    lane: 1
+    hitTimeSeconds: 24
+  - id: 29
+    lane: 2
+    hitTimeSeconds: 24.5
+  - id: 30
+    lane: 0
+    hitTimeSeconds: 25
+  - id: 31
+    lane: 3
+    hitTimeSeconds: 25.5
+  - id: 32
+    lane: 3
+    hitTimeSeconds: 26
+  - id: 33
+    lane: 1
+    hitTimeSeconds: 26.5
+  - id: 34
+    lane: 2
+    hitTimeSeconds: 27
+  - id: 35
+    lane: 0
+    hitTimeSeconds: 27.5
+  - id: 36
+    lane: 1
+    hitTimeSeconds: 28
+  - id: 37
+    lane: 0
+    hitTimeSeconds: 28.5
+  - id: 38
+    lane: 3
+    hitTimeSeconds: 29
+  - id: 39
+    lane: 2
+    hitTimeSeconds: 29.5
+  - id: 40
+    lane: 0
+    hitTimeSeconds: 30
+  - id: 41
+    lane: 1
+    hitTimeSeconds: 30.5
+  - id: 42
+    lane: 3
+    hitTimeSeconds: 31
+  - id: 43
+    lane: 2
+    hitTimeSeconds: 31.5
+  - id: 44
+    lane: 1
+    hitTimeSeconds: 32
+  - id: 45
+    lane: 3
+    hitTimeSeconds: 32.5
+  - id: 46
+    lane: 0
+    hitTimeSeconds: 33
+  - id: 47
+    lane: 2
+    hitTimeSeconds: 33.5
+  - id: 48
+    lane: 0
+    hitTimeSeconds: 34
+  - id: 49
+    lane: 1
+    hitTimeSeconds: 34.5
+  - id: 50
+    lane: 2
+    hitTimeSeconds: 35
+  - id: 51
+    lane: 3
+    hitTimeSeconds: 35.5
+  - id: 52
+    lane: 2
+    hitTimeSeconds: 36
+  - id: 53
+    lane: 1
+    hitTimeSeconds: 36.5
+  - id: 54
+    lane: 0
+    hitTimeSeconds: 37
+  - id: 55
+    lane: 3
+    hitTimeSeconds: 37.5
+  - id: 56
+    lane: 0
+    hitTimeSeconds: 38
+  - id: 57
+    lane: 2
+    hitTimeSeconds: 38.5
+  - id: 58
+    lane: 1
+    hitTimeSeconds: 39
+  - id: 59
+    lane: 3
+    hitTimeSeconds: 39.5
+  - id: 60
+    lane: 1
+    hitTimeSeconds: 40
+  - id: 61
+    lane: 2
+    hitTimeSeconds: 40.5
+  - id: 62
+    lane: 0
+    hitTimeSeconds: 41
+  - id: 63
+    lane: 3
+    hitTimeSeconds: 41.5
+  - id: 64
+    lane: 3
+    hitTimeSeconds: 42
+  - id: 65
+    lane: 1
+    hitTimeSeconds: 42.5
+  - id: 66
+    lane: 2
+    hitTimeSeconds: 43
+  - id: 67
+    lane: 0
+    hitTimeSeconds: 43.5
+  - id: 68
+    lane: 1
+    hitTimeSeconds: 44
+  - id: 69
+    lane: 0
+    hitTimeSeconds: 44.5
+  - id: 70
+    lane: 3
+    hitTimeSeconds: 45
+  - id: 71
+    lane: 2
+    hitTimeSeconds: 45.5
+  - id: 72
+    lane: 0
+    hitTimeSeconds: 46
+  - id: 73
+    lane: 1
+    hitTimeSeconds: 46.5
+  - id: 74
+    lane: 3
+    hitTimeSeconds: 47
+  - id: 75
+    lane: 2
+    hitTimeSeconds: 47.5
+  - id: 76
+    lane: 1
+    hitTimeSeconds: 48
+  - id: 77
+    lane: 3
+    hitTimeSeconds: 48.5
+  - id: 78
+    lane: 0
+    hitTimeSeconds: 49
+  - id: 79
+    lane: 2
+    hitTimeSeconds: 49.5
+  - id: 80
+    lane: 0
+    hitTimeSeconds: 50
+  - id: 81
+    lane: 1
+    hitTimeSeconds: 50.375
+  - id: 82
+    lane: 2
+    hitTimeSeconds: 50.75
+  - id: 83
+    lane: 3
+    hitTimeSeconds: 51.125
+  - id: 84
+    lane: 0
+    hitTimeSeconds: 51.5
+  - id: 85
+    lane: 2
+    hitTimeSeconds: 51.875
+  - id: 86
+    lane: 1
+    hitTimeSeconds: 52.25
+  - id: 87
+    lane: 3
+    hitTimeSeconds: 52.625
+  - id: 88
+    lane: 2
+    hitTimeSeconds: 53
+  - id: 89
+    lane: 0
+    hitTimeSeconds: 53.375
+  - id: 90
+    lane: 3
+    hitTimeSeconds: 53.75
+  - id: 91
+    lane: 1
+    hitTimeSeconds: 54.125
+  - id: 92
+    lane: 0
+    hitTimeSeconds: 54.5
+  - id: 93
+    lane: 3
+    hitTimeSeconds: 54.875
+  - id: 94
+    lane: 2
+    hitTimeSeconds: 55.25
+  - id: 95
+    lane: 1
+    hitTimeSeconds: 55.625
+  - id: 96
+    lane: 0
+    hitTimeSeconds: 56
+  - id: 97
+    lane: 1
+    hitTimeSeconds: 56.375
+  - id: 98
+    lane: 2
+    hitTimeSeconds: 56.75
+  - id: 99
+    lane: 3
+    hitTimeSeconds: 57.125
+  - id: 100
+    lane: 0
+    hitTimeSeconds: 57.5
+  - id: 101
+    lane: 2
+    hitTimeSeconds: 57.875
+  - id: 102
+    lane: 1
+    hitTimeSeconds: 58.25
+  - id: 103
+    lane: 3
+    hitTimeSeconds: 58.625
+  - id: 104
+    lane: 2
+    hitTimeSeconds: 59
+  - id: 105
+    lane: 0
+    hitTimeSeconds: 59.375
+  - id: 106
+    lane: 3
+    hitTimeSeconds: 59.75
+  - id: 107
+    lane: 1
+    hitTimeSeconds: 60.125
+  - id: 108
+    lane: 0
+    hitTimeSeconds: 60.5
+  - id: 109
+    lane: 3
+    hitTimeSeconds: 60.875
+  - id: 110
+    lane: 2
+    hitTimeSeconds: 61.25
+  - id: 111
+    lane: 1
+    hitTimeSeconds: 61.625
+  - id: 112
+    lane: 0
+    hitTimeSeconds: 62
+  - id: 113
+    lane: 1
+    hitTimeSeconds: 62.375
+  - id: 114
+    lane: 2
+    hitTimeSeconds: 62.75
+  - id: 115
+    lane: 3
+    hitTimeSeconds: 63.125
+  - id: 116
+    lane: 0
+    hitTimeSeconds: 63.5
+  - id: 117
+    lane: 2
+    hitTimeSeconds: 63.875
+  - id: 118
+    lane: 1
+    hitTimeSeconds: 64.25
+  - id: 119
+    lane: 3
+    hitTimeSeconds: 64.625
+  - id: 120
+    lane: 2
+    hitTimeSeconds: 65
+  - id: 121
+    lane: 0
+    hitTimeSeconds: 65.375
+  - id: 122
+    lane: 3
+    hitTimeSeconds: 65.75
+  - id: 123
+    lane: 1
+    hitTimeSeconds: 66.125
+  - id: 124
+    lane: 0
+    hitTimeSeconds: 66.5
+  - id: 125
+    lane: 3
+    hitTimeSeconds: 66.875
+  - id: 126
+    lane: 2
+    hitTimeSeconds: 67.25
+  - id: 127
+    lane: 1
+    hitTimeSeconds: 67.625
+  - id: 128
+    lane: 0
+    hitTimeSeconds: 68
+  - id: 129
+    lane: 2
+    hitTimeSeconds: 68.375
+  - id: 130
+    lane: 1
+    hitTimeSeconds: 68.75
+  - id: 131
+    lane: 3
+    hitTimeSeconds: 69.125
+  - id: 132
+    lane: 0
+    hitTimeSeconds: 69.5
+  - id: 133
+    lane: 1
+    hitTimeSeconds: 69.875
+  - id: 134
+    lane: 2
+    hitTimeSeconds: 70.25
+  - id: 135
+    lane: 3
+    hitTimeSeconds: 70.625
